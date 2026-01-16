@@ -10,9 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\PriorityDispatcher.Core\PriorityDispatcher.Contracts.csproj" />
-    <ProjectReference Include="..\PriorityDispatcher.Infrastructure\PriorityDispatcher.Services.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PriorityDispatcher.Contracts\PriorityDispatcher.Contracts.csproj" />
+		<ProjectReference Include="..\PriorityDispatcher.Services\PriorityDispatcher.Services.csproj" />
+	</ItemGroup>
 
 </Project>

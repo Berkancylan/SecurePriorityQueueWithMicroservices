@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PriorityDispatcher.Contracts\PriorityDispatcher.Contracts.csproj" />
     <ProjectReference Include="..\PriorityDispatcher.Core\PriorityDispatcher.Contracts.csproj" />
   </ItemGroup>
 
