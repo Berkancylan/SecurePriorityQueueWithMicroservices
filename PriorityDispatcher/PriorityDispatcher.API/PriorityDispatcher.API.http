@@ -1,0 +1,6 @@
+@PriorityDispatcher.API_HostAddress = http://localhost:5031
+
+GET {{PriorityDispatcher.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
